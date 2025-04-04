@@ -1,0 +1,62 @@
+.skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.skill-block {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    min-width: 80px;
+    gap: 5px;
+    align-items: center;
+
+    padding: 4px 8px;
+    list-style: none;
+}
+
+.skill-block img {
+    width: 20px;
+}
+.skill-block span {
+    font-size: 20px;
+}
+
+.work-description li {
+    list-style-type: square;
+}
+
+h1 {
+    color: black;
+}
+
+.h3-duration h3 {
+    margin: 0;
+}
+.h3-duration h5 {
+    text-align: start;
+}
+.h3-duration a {
+    text-decoration: underline solid black 1px;
+}
+
+.inner button {
+    margin-bottom: 15px;
+}
+
+.certification {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 16px;
+    grid-auto-flow: column;
+    column-gap: 35px;
+    overflow-x: auto;
+}
